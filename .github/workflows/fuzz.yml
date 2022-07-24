@@ -8,6 +8,6 @@ jobs:
     name: Fuzz test
     runs-on: ubuntu-latest
     steps:
-      - uses: jidicula/go-fuzz-action@issue-2
+      - uses: jidicula/go-fuzz-action@main
         with:
           fuzz-time: 30s
